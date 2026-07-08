@@ -1,8 +1,8 @@
 class Hscli < Formula
   desc "Command-line interface for Help Scout"
   homepage "https://github.com/wavyx/hscli"
-  url "https://registry.npmjs.org/@wavyx/hscli/-/hscli-0.11.1.tgz"
-  sha256 "81eb1bee56087b2299ef41b7c6e3bf4b7e22ef3f28bde3d151445505d9539745"
+  url "https://registry.npmjs.org/@wavyx/hscli/-/hscli-0.11.2.tgz"
+  sha256 "dee120dd00f7e9816cafead25baba802dc7c3df80de412cf86a27bbf67997746"
   license "MIT"
 
   depends_on "jq"
