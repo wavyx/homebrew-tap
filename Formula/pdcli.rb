@@ -24,3 +24,4 @@ class Pdcli < Formula
     system bin/"pdcli", "config", "list", "--output", "json", "--jq", "."
   end
 end
+# publish-write-test (will be overwritten by the workflow)
