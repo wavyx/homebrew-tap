@@ -15,7 +15,7 @@ class Pdcli < Formula
     # Homebrew build sandbox blocks network, so point node-jq at the Homebrew jq
     # instead (node-jq honors $JQ_PATH at runtime).
     (bin/"pdcli").write_env_script libexec/"bin/pdcli",
-                                   JQ_PATH: Formula["jq"].opt_bin/"jq"
+                                   JQ_PATH: formula_opt_bin("jq")/"jq"
   end
 
   test do
