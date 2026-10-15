@@ -1,8 +1,8 @@
 class Exactcli < Formula
   desc "Command-line interface for Exact Online"
   homepage "https://wavyx.github.io/exactcli/"
-  url "https://registry.npmjs.org/@wavyx/exactcli/-/exactcli-0.14.4.tgz"
-  sha256 "406ab63208654629c67c563bd1b7b63cf624e591e5813119c99f2e668b13730f"
+  url "https://registry.npmjs.org/@wavyx/exactcli/-/exactcli-0.15.0.tgz"
+  sha256 "85d52aa07edac8265fecbc03ebb19a7d6d3fa6664cb6d12389bc08fc7a38114e"
   license "MIT"
 
   depends_on "jq"
